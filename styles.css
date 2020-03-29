@@ -1,0 +1,22 @@
+/* Add application styles & imports to this file! */
+/* Structure */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.example-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+
+.example-header {
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  font-size: 20px;
+}
+
+.mat-table {
+  overflow: auto;
+  max-height: 500px;
+}
